@@ -1,0 +1,14 @@
+pkgname="librewolf-deb"
+pkgver="134.0-1"
+gives="librewolf"
+arch=("amd64" "arm64")
+replaces=("${gives}")
+pkgdesc="A fork of Firefox, focused on privacy, security and freedom"
+breaks=("${gives}-app" "${gives}-bin" "${gives}-git")
+maintainer=("Oren Klopfer <oren@taumoda.com>" "James Ed Randson <jimedrand@disroot.org>")
+incompatible=("debian:buster" "debian:bullseye" "debian:bookworm" "debian:trixie" "debian:sid")
+source_amd64=("https://repo.librewolf.net/pool/${gives}-${pkgver}-linux-x86_64-deb.deb")
+sha256sums_amd64=("f3390f71c88d8563159a78dc77cbb17578aef55c020ee98acb6a2e5e1711ba08")
+source_arm64=("https://repo.librewolf.net/pool/${gives}-${pkgver}-linux-arm64-deb.deb")
+sha256sums_arm64=("a687880c0de03c8d8e1e8d230fd7edf9befca5534a9f555f4b9abdc609a9d21a")
+repology=("project: librewolf")

@@ -1,0 +1,13 @@
+pkgbase = linux-modules-stable-deb
+	gives = linux-modules-6.13.2-061302-generic
+	pkgver = 6.13.2
+	pkgdesc = Ubuntu Linux stable kernel (Linux Modules)
+	arch = arm64
+	arch = amd64
+	maintainer = Oren Klopfer <oren@taumoda.com>
+	source_arm64 = https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.13.2/arm64/linux-modules-6.13.2-061302-generic_6.13.2-061302.202502081010_arm64.deb
+	sha256sums_arm64 = 6180bb7620dd0108505c0712dc13989b3cde854d8f5afadd52e15e9a073e2a1e
+	source_amd64 = https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.13.2/amd64/linux-modules-6.13.2-061302-generic_6.13.2-061302.202502081010_amd64.deb
+	sha256sums_amd64 = fb04c692e7f26a9b5f0de2d43b5e8e69cd938f7c44250acd84391cd47c14b0f8
+
+pkgname = linux-modules-stable-deb

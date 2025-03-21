@@ -1,0 +1,16 @@
+pkgbase = spotify-client-deb
+	gives = spotify-client
+	pkgver = 1.2.56.502.ga68d2d4f
+	pkgdesc = Spotify streaming music client
+	arch = amd64
+	breaks = spotify-client-git
+	breaks = spotify-client-app
+	breaks = spotify-client-bin
+	breaks = spotify
+	replaces = spotify-client
+	maintainer = Oren Klopfer <oren@taumoda.com>
+	repology = project: spotify
+	source = http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.2.56.502.ga68d2d4f_amd64.deb
+	sha256sums = b1088324c2c0e2aa0fdbdef99a565bb2698a6a9bb277218efc9f6ed79840bedc
+
+pkgname = spotify-client-deb
